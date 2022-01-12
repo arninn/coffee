@@ -1,0 +1,335 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    color: #0B1D03;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    line-height: 88px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    color: #fff; 
+    margin-bottom: 60px;
+}
+
+.h3-firt-section {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    line-height: 60px;
+    color: #0B1D03;
+}
+
+ul {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.h3-store {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    line-height: 60px;
+    color: #A0996C;
+}
+
+.fundo {
+    background-image: url('../img/slider.png');
+    background-size: cover;
+    min-height: 900px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+    
+}
+
+.header-menu {
+    width: 40%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.cart {    
+    width: 5%;
+}
+
+.slider-text {
+    padding: 80px;
+}
+
+.selector {
+    margin-bottom: 20px;
+}
+
+.section-cafes {
+    padding: 80px;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0B1D03;
+    margin-top: 20px;
+}
+
+.cafemagico-left {   
+   width: 50%;
+   display: inline-block;    
+}
+
+.cafemagico-left img {   
+    width: 100%;    
+ }
+
+.cafemagico-right {   
+    width: 40%;
+    padding-left: 60px;
+    display: inline-block;  
+    vertical-align: top;
+}
+
+.emais {
+    margin-top: 80px;
+}
+
+.emais-right img {
+    width: 100%;
+}
+
+.emais-right {
+    width: 50%;
+    display: inline-block;      
+    float: right;  
+}
+
+.emais-left {   
+    width: 40%;
+    padding-right: 40px;
+    display: inline-block;  
+    vertical-align: top;  
+ }
+
+ .variedades {
+     padding: 60px; 
+ }
+
+ .flex {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+    }
+
+ .variedades-title {
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+ .variedades-items {
+     width: 40%;
+     padding: 20px;
+     background-color: #F7F1E6;
+     border-radius: 8px;
+     text-align: center;
+ }
+
+ .variedades-items-margin {
+    margin-right: 40px;
+}
+
+ .variedades-items h4 {
+    color:#0B1D03;
+    font-size: 16px;
+   }
+
+   .variedades-items h5 {
+    color:#0B1D03;
+    font-size: 22px;
+   }
+
+   .variedades-items span {
+    color:#969696;
+    font-size: 14px;
+    font-weight: 300;
+   }
+
+ .variedades-items button {
+    padding: 10px;
+    background-color: #0B1D03;
+    border: transparent;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;    
+    font-size: 12px;
+    margin-top: 20px;
+    width: 200px;
+    }
+
+.space {
+    padding: 20px;
+}
+
+.row-icons {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     text-align: center;
+     padding: 60px;
+}
+
+.icon {
+    width: 20%;
+}
+
+.icon p {
+    font-weight: bold;
+}
+
+.banners {    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;        
+        padding: 60px;
+}
+
+.banners h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    color: #fff; 
+    margin-bottom: 20px;
+}
+
+.banner-text {
+    color: white;
+    width: 70%;
+    padding: 290px 0 0 40px;
+}
+
+.banner1 {
+    margin-right: 20px;
+    background-image: url('../img/imagem4.png');
+    background-size: cover;
+    background-position: center;
+    min-width: 50%;
+    min-height: 450px;
+}
+    
+.banner2 {
+    margin-right: 20px;
+    background-image: url('../img/imagem3.png');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    min-height: 450px;
+}
+
+.lojas {
+    padding: 60px;
+}
+
+.lojas img {
+    width: 100%;
+}
+
+.lojas-buscar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 0 20px 0;
+}
+
+.cidade select {
+    padding: 10px;
+    border: 2px solid #0B1D03;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    min-width: 400px;
+}
+
+.endereco input {
+    padding: 10px;
+    border: 2px solid #0B1D03;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    min-width: 800px;
+    background-image: url('../img/search-input.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    
+}
+
+
+footer {
+    background-color: #F7F1E6;
+    padding: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+.footer-column1 {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.footer-column2 {
+    display: inline-block;
+    width: 20%;
+}
+
+.footer-column3 {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.footer-column4 {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.footer-redes ul li {
+    display: inline;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F1E6;
+    margin-top: 50px;
+}
+
+
